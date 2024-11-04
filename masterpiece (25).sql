@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2024 at 06:43 PM
+-- Generation Time: Nov 04, 2024 at 09:05 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -20,38 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `masterpiece`
 --
-
-
-INSERT INTO `users` (`id`, `Fname`, `Lname`, `role`, `email`, `email_verified_at`, `mobile`, `password`, `deleted_at`, `remember_token`, `created_at`, `updated_at`) VALUES
-(101, 'Rasha', 'yaseen', 'manager', 'yaseenrasha4@gmail.com', NULL, '0796567379', '$2y$10$LDftS9nA4RAd9AFDKYF78.rVraBQOk5WocQUA/LE8s5Q1PwqsZGmW', NULL, NULL, '2024-10-30 17:07:43', '2024-10-30 17:07:43'),
-(1, 'Howell', 'Hilpert', 'manager', 'goyette.ora@example.com', '2024-10-30 16:29:15', '+1-260-426-8249', '$2y$10$4CuXxHC5t/rDw5YXR2uFCOgvB.I/7gnGBZwwEI9QyyrSR5MKR6cCW', NULL, 'LxVS6COn4e', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(2, 'Rigobertozzzz', 'Bailey', 'store_manager', 'imani20@example.org', '2024-10-30 16:29:15', '+14586626827', '$2y$10$sGx3ZG023eXDGyVKHWZZou0fXinyyTqxOY97LFANg6HIUrjy6YkhK', NULL, 'yAgzSMCYzI', '2024-10-30 16:29:18', '2024-11-02 12:32:21'),
-(3, 'Lera', 'Hudson', 'store_manager', 'jacobson.dale@example.com', '2024-10-30 16:29:15', '(856) 399-4354', '$2y$10$wEbsiQAFNUdRRktT6/zSVOxEwxfK1.PgjffvWNxKpJXfCxynJOohi', NULL, 'OcWzFfaX2M', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(4, 'Janie', 'Conroy', 'veterinarian', 'beatty.elda@example.net', '2024-10-30 16:29:15', '1-971-706-0418', '$2y$10$KNEB1p.oYzLKXcGyHia5yOkaLIQCf816vKejrk9V3NWl5I2aCdjBi', NULL, 'kL6gDXvMr2', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(5, 'Yolanda', 'Zemlak', 'veterinarian', 'sborer@example.net', '2024-10-30 16:29:16', '+19524164990', '$2y$10$TIl.34Y3LkAbg1R1t07FDOX7O90nhxu1ir5xJ97AepUUfh9EG00GO', NULL, 'lSmRv5e2bc', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(6, 'Miller', 'Schroeder', 'store_manager', 'llesch@example.org', '2024-10-30 16:29:16', '205-604-9478', '$2y$10$nyRsa1vqcrQMaZhp2SQRkud5/tKupXQGQZLD9Syaj0V2V/iueNJSC', NULL, 'axpNZ0AZ4M', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(7, 'Raoul', 'Paucek', 'user', 'gulgowski.fausto@example.net', '2024-10-30 16:29:16', '+1-562-818-8465', '$2y$10$seklJMlaDzCRikVY1TY7Y.wKf/GGxb6YXkq0Zk.FXto.Bl18ZS/cG', NULL, 'JFy0ssNdCa', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(8, 'Bridie', 'Bode', 'user', 'lafayette.hoeger@example.net', '2024-10-30 16:29:16', '+1 (802) 653-4096', '$2y$10$mD2/Ww.cR.3L2WUPKBQG9uiRDQq7aMeOAVtWVtmiNsvKJPXm..Mcq', NULL, 'ZIWH5MnmM9', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(9, 'Kaitlin', 'Nader', 'manager', 'bergnaum.darion@example.com', '2024-10-30 16:29:16', '+1-986-629-3121', '$2y$10$f4N6D1fj4SRNx/32PjlhieFWsddP2Lo2cBCnPyDpTK9s1nsSnnj3G', NULL, 'qlcTncDpfv', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(10, 'Kailee', 'Langosh', 'receptionist', 'amy46@example.org', '2024-10-30 16:29:16', '1-940-999-6856', '$2y$10$828kx988MSspOeoZzmo7sepPvX.WpvyWV88xRpfXaHNkYE0T3GDyS', NULL, '5KdayMMGd0', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(11, 'Herman', 'Pacocha', 'manager', 'chauck@example.org', '2024-10-30 16:29:16', '234-453-4521', '$2y$10$fLoa3dOulx4O9TTwMnsrtujvV2O2k2/CVrtnH.PA3MN9dbnQAPJpa', NULL, 'SsBngDZK7h', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(12, 'Sierra', 'Orn', 'user', 'dayton19@example.net', '2024-10-30 16:29:16', '507.617.2807', '$2y$10$JNeRKE.rm3xm9127Y.u5AedUkvqpzp1KCGu6BxPudlP6x78TkgMKC', NULL, 'bZK2V8GcQf', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(13, 'Elinor', 'Zemlak', 'receptionist', 'okeefe.alek@example.com', '2024-10-30 16:29:17', '219-247-6871', '$2y$10$4ExSpD1Q1vwMcU4MC.D2MOIH3J6.E9z3shXQ1ku7.0M1QCdH.ntmO', NULL, 'BkZGPW8TRJ', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(14, 'Kamren', 'Yost', 'store_manager', 'zakary.flatley@example.org', '2024-10-30 16:29:17', '+1-640-209-1632', '$2y$10$X2fa20d1JbnLN1HjM4YgzeP0m8b9zO.CaWTcG2h/1OIT6hsnqPqDC', NULL, '03YeqH4ItN', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(15, 'Freida', 'Hermann', 'veterinarian', 'jordan06@example.net', '2024-10-30 16:29:17', '630.963.2499', '$2y$10$pkYftsWDYD6aXtG38dMUoeXxC.XNSl2ficFJS73ePnJFnrlBKx4um', NULL, 'P95lr8vYZq', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(16, 'Annette', 'Hauck', 'veterinarian', 'imurphy@example.com', '2024-10-30 16:29:17', '(616) 866-6392', '$2y$10$uEAyE1XqOqmOukAp4OptdOnvD7mWtUJK7ws36z1zaMuraeDd.fedu', NULL, 'PkUtlPcmK7', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(17, 'Jaylin', 'Baumbach', 'store_manager', 'missouri.turcotte@example.net', '2024-10-30 16:29:17', '+17082066405', '$2y$10$dwaffcXxUXYYFbqUVsBdheSTXTt55DmULHAl5RXKmz/XfVgKM91cq', NULL, 'YJReCDkVxH', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(18, 'Skylar', 'Wisozk', 'user', 'elisha.lemke@example.org', '2024-10-30 16:29:17', '(406) 302-4478', '$2y$10$OBTKefssakww9fPf7voRMuC1Qib9fh6K9W4TWsClcBUuWg3kvOdzu', NULL, 'KYByCGmF5p', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(19, 'Kole', 'Parisian', 'user', 'ejacobi@example.org', '2024-10-30 16:29:17', '689-482-8205', '$2y$10$/UAwbx8TOtAGmG//HxsEfu037IFGblOUbxnTyAV3BWEZNVE55v1.a', NULL, 'RU27XKs8Hx', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(20, 'Larissa', 'Lindgren', 'user', 'janet.howe@example.com', '2024-10-30 16:29:17', '+1-307-777-3004', '$2y$10$ZTPwacmprRDWDL3KBawgi.SrxJVFwh2MF1ENewnYegHcgTadMoaVK', NULL, 'WwOIdSY2Un', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(21, 'Mariam', 'Kris', 'receptionist', 'huels.sandrine@example.com', '2024-10-30 16:29:17', '+1-321-280-7716', '$2y$10$MtfGVLyHTHdic7i4dJZflOzZctNOuWju8HS3BgFZ/PHt1sssOGnxu', NULL, 'dKIg45llkt', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(22, 'Cassandra', 'Conn', 'manager', 'reichert.celine@example.com', '2024-10-30 16:29:18', '+1-217-831-1307', '$2y$10$ZUyEip0X4fhI2P6eV9bnG.tRYjDlm0exgARr2O..mEtoMIe/DtjM6', NULL, '9srVhmmV7L', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(23, 'Savanah', 'Cronin', 'store_manager', 'parisian.ladarius@example.com', '2024-10-30 16:29:18', '1-260-359-4614', '$2y$10$OCHaZlCVKYBwGps6GhvUauof4nyvfQhzGtsh72/hy0b0IdXD2DkWu', NULL, '4XYyK2Y8Ws', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(24, 'Verona', 'DuBuque', 'manager', 'dexter.spencer@example.com', '2024-10-30 16:29:18', '(858) 235-1636', '$2y$10$uEDLwgZbIi8Dhp5DDTT8rOa2aV51x.lTIqg3zPjZMF0RsYXvTiE3.', NULL, 'F966PKO7lx', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
-(25, 'Erika', 'Nader', 'user', 'eusebio54@example.com', '2024-10-30 16:29:18', '+1-938-572-1452', '$2y$10$GKRvt4GzjwPz3MmGrIhsyOiVxFMkQ5XQPkPBK51CNtIWjHl0/gSoe', NULL, 'sWm9m5hyNQ', '2024-10-30 16:29:18', '2024-10-30 16:29:18');
-
-
-
 
 --
 -- Dumping data for table `categories`
@@ -87,37 +55,58 @@ INSERT INTO `contacts` (`id`, `Fname`, `Lname`, `email`, `subject`, `message`, `
 -- Dumping data for table `migrations`
 --
 
-
+INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
+(1, '2014_10_12_100000_create_password_reset_tokens_table', 1),
+(2, '2014_10_12_100000_create_password_resets_table', 1),
+(3, '2019_08_19_000000_create_failed_jobs_table', 1),
+(4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
+(5, '2024_10_05_000001_create_users_table', 1),
+(6, '2024_10_05_000002_create_services_table', 1),
+(7, '2024_10_05_000003_create_service_images_table', 1),
+(8, '2024_10_05_000004_create_service_feedback_table', 1),
+(9, '2024_10_05_000005_create_appointments_table', 1),
+(10, '2024_10_05_000006_create_reminders_table', 1),
+(11, '2024_10_05_000007_create_categories_table', 1),
+(12, '2024_10_05_000008_create_products_table', 1),
+(13, '2024_10_05_000009_create_product_images_table', 1),
+(14, '2024_10_05_000010_create_product_details_table', 1),
+(15, '2024_10_05_000011_create_product_feedback_table', 1),
+(16, '2024_10_05_000012_create_order_products_table', 1),
+(17, '2024_10_05_000013_create_pets_table', 1),
+(18, '2024_10_05_000014_create_pet_images_table', 1),
+(19, '2024_10_05_000015_create_to_adoupts_table', 1),
+(20, '2024_10_05_000016_create_testimonials_table', 1),
+(21, '2024_10_05_000017_create_contacts_table', 1);
 
 --
 -- Dumping data for table `pets`
 --
 
 INSERT INTO `pets` (`id`, `name`, `age`, `gender`, `type`, `information`, `pet_vaccinations_image`, `Special_needs`, `is_adopted`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 'Tweety', 14, 'male', 'sherazi', 'Id numquam corrupti assumenda ad qui et vitae.', '1730640764.png', 'ssddddddddddddddddddddddddddddddddddddddddddd', '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:32:44'),
-(2, 'Misho', 7, 'male', 'Skotch', 'Magni rerum dignissimos eveniet.', NULL, NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:33:01'),
-(3, 'roby', 11, 'female', 'Dog', 'Harum nihil asperiores debitis ut laboriosam.', '1730640798.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:33:18'),
-(4, 'smarty', 11, 'female', 'hamster', 'Voluptatem dolorem earum repellendus accusamus.', '1730641181.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:39:41'),
-(5, 'puppy', 14, 'male', 'dog', 'Laudantium ea consectetur animi error inventore natus facere.', '1730643795.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 11:23:15'),
-(6, 'Lusi', 3, 'male', 'dog', 'Adipisci architecto sapiente est tempore qui vel commodi.', '1730641218.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:40:18'),
-(10, 'Jada', 8, 'female', 'hamster', 'Unde qui voluptate pariatur repellat esse iste repellendus.', NULL, NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:40:30'),
-(11, 'Amiya', 2, 'male', 'cat', 'Labore rerum qui commodi quod iusto minus quod nulla.', '1730641243.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:40:43'),
-(12, 'Fred', 11, 'male', 'bird', 'Ut totam animi quo eius cum.', '1730641254.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:40:54'),
-(13, 'Alanna', 5, 'male', 'hamster', 'Est quibusdam sit saepe necessitatibus et ea quam.', '1730641269.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:41:09'),
-(14, 'Mae', 14, 'male', 'cat', 'Explicabo consectetur quia et cum.', '1730641280.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:41:20'),
-(15, 'Helmer', 9, 'male', 'dog', 'Repudiandae dolor architecto voluptates laborum.', '1730647928.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 12:32:08'),
-(16, 'Green', 11, 'male', 'bird', 'Facilis aut cupiditate maxime et.', '1730641347.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:42:27'),
-(17, 'Keebler', 10, 'male', 'hamster', 'Architecto rerum voluptates sint nihil mollitia.', '1730641365.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:42:45'),
-(18, 'Nar', 3, 'female', 'cat', 'Tenetur in omnis voluptatem et autem ut.', '1730641392.png', NULL, '', NULL, '2024-10-27 23:11:22', '2024-11-03 10:43:12'),
-(19, 'Fae', 13, 'female', 'cat', 'Qui nam natus impedit totam error et exercitationem.', '1730641402.png', NULL, '', '2024-11-03 12:46:13', '2024-10-27 23:11:22', '2024-11-03 12:46:13'),
-(20, 'Leanne', 5, 'female', 'dog', 'Totam quod sit unde aspernatur magnam alias ut.', NULL, NULL, '', '2024-11-03 12:46:19', '2024-10-27 23:11:22', '2024-11-03 12:46:19'),
-(21, 'Coralie', 4, 'female', 'hamster', 'Dignissimos dicta dolorem recusandae impedit accusantium.', '1730132488.jpg', NULL, '', '2024-11-03 12:46:24', '2024-10-27 23:11:22', '2024-11-03 12:46:24'),
-(22, 'Madalyn Barrows', 12, 'female', 'dog', 'Magni doloremque molestiae cupiditate omnis.', '1730132364.jpg', '', '', '2024-11-03 10:31:15', '2024-10-27 23:11:22', '2024-11-03 10:31:15'),
-(23, 'Carli Gutmann', 6, 'female', 'cat', 'Provident et aperiam incidunt debitis reprehenderit.', '1730132382.jpg', '', '', '2024-11-03 10:31:11', '2024-10-27 23:11:22', '2024-11-03 10:31:11'),
-(24, 'Ms. Alexandrine Jakubowski', 9, 'female', 'hamster', 'Optio animi nulla magnam incidunt voluptatum soluta.', '1730132364.jpg', '', '', '2024-11-03 10:31:06', '2024-10-27 23:11:22', '2024-11-03 10:31:06'),
-(25, 'Eleanore Ritchie DVM', 13, 'female', 'bird', 'Velit adipisci magni velit eum.', '1730132488.jpg', '', '', '2024-10-30 17:22:02', '2024-10-27 23:11:22', '2024-10-30 17:22:02'),
-(26, 'Cat sand', 8, 'male', 'Cat', 'asdfghj', NULL, '', '', '2024-10-30 17:21:56', '2024-10-29 14:35:40', '2024-10-30 17:21:56'),
-(27, 'Rasha Yaseen', 2222222, 'female', 'sherazi', 'ooooooooooooooooooooooooooooooo', NULL, NULL, 'Available', '2024-11-03 10:31:01', '2024-11-03 09:53:51', '2024-11-03 10:31:01');
+(1, 'Tweety', '1', 'male', 'Shirazi', 'Intelligent and vocal enjoys companionship', '1730640764.png', 'Needs daily playtime and mental stimulation', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:35:57'),
+(2, 'Misho', '2', 'male', 'Scottish Fold', 'Calm and affectionate prefers a quiet home', NULL, 'Daily grooming needed to maintain her coat', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:36:12'),
+(3, 'roby', '4', 'male', 'Golden Retriever', 'Active and playful enjoys climbing and exploring', '1730640798.png', 'Needs lots of exercise and mental stimulation', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:37:10'),
+(4, 'smarty', '1', 'female', 'Egyptian Mau', 'Gentle and affectionate loves being held', '1730641181.png', 'Regular grooming enjoys interactive play', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:40:19'),
+(5, 'puppy', '3', 'female', 'Poodle', 'Intelligent and protective loyal to family', '1730643795.png', 'Needs structured training and socialization.', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:41:41'),
+(6, 'Lusi', '3', 'female', 'Russian Blue', 'Curious and playful enjoys being around people', '1730641218.png', 'Requires plenty of playtime and mental stimulation', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:42:29'),
+(10, 'Luna', '8', 'female', 'Shirazi', 'Friendly and sociable loves to cuddle', NULL, 'Regular vet check-ups for skeletal health', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:43:51'),
+(11, 'Amiya', '2', 'male', 'Himalayan', 'Calm and good-natured adapts well to apartment life', '1730641243.png', 'Requires regular grooming due to long fur', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:44:28'),
+(12, 'Max', '1', 'male', 'Bulldog', 'Curious and brave loves burrowing', '1730641254.png', 'Needs a cool environment due to sensitivity to heat', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:57:57'),
+(13, 'Luna', '2', 'female', 'Poodle', 'Energetic and smart loves being active.', '1730641269.png', 'Requires intensive daily exercise and mental challenges', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:48:59'),
+(14, 'Mae', '1', 'female', 'Egyptian Mau', 'Highly intelligent and energetic excels in agility', '1730641280.png', 'Needs gentle handling and warmth in colder climates', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:50:07'),
+(15, 'Bella', '1', 'male', 'Shirazi', 'Bold personality small but protective', '1730647928.png', 'Regular grooming and ear checks to prevent infections', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:51:20'),
+(16, 'Toby', '1', 'male', 'Himalayan', 'Friendly and playful great with kids', '1730641347.png', 'Needs large living space and orthopedic support', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:52:15'),
+(17, 'Oliver', '2', 'male', 'Bulldog', 'Alert and hard-working great stamina', '1730641365.png', 'Needs lots of exercise and mentally challenging tasks', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:53:03'),
+(18, 'Milo', '1', 'female', 'Persian', 'Sweet and gentle loves being around people', '1730641392.png', 'Regular heart check-ups and daily companionship.', '', NULL, '2024-10-27 23:11:22', '2024-11-04 15:54:00'),
+(19, 'Fae', '13', 'female', 'cat', 'Qui nam natus impedit totam error et exercitationem.', '1730641402.png', NULL, '', '2024-11-03 12:46:13', '2024-10-27 23:11:22', '2024-11-03 12:46:13'),
+(20, 'Leanne', '5', 'female', 'dog', 'Totam quod sit unde aspernatur magnam alias ut.', NULL, NULL, '', '2024-11-03 12:46:19', '2024-10-27 23:11:22', '2024-11-03 12:46:19'),
+(21, 'Coralie', '4', 'female', 'hamster', 'Dignissimos dicta dolorem recusandae impedit accusantium.', '1730132488.jpg', NULL, '', '2024-11-03 12:46:24', '2024-10-27 23:11:22', '2024-11-03 12:46:24'),
+(22, 'Madalyn Barrows', '12', 'female', 'dog', 'Magni doloremque molestiae cupiditate omnis.', '1730132364.jpg', '', '', '2024-11-03 10:31:15', '2024-10-27 23:11:22', '2024-11-03 10:31:15'),
+(23, 'Carli Gutmann', '6', 'female', 'cat', 'Provident et aperiam incidunt debitis reprehenderit.', '1730132382.jpg', '', '', '2024-11-03 10:31:11', '2024-10-27 23:11:22', '2024-11-03 10:31:11'),
+(24, 'Ms. Alexandrine Jakubowski', '9', 'female', 'hamster', 'Optio animi nulla magnam incidunt voluptatum soluta.', '1730132364.jpg', '', '', '2024-11-03 10:31:06', '2024-10-27 23:11:22', '2024-11-03 10:31:06'),
+(25, 'Eleanore Ritchie DVM', '13', 'female', 'bird', 'Velit adipisci magni velit eum.', '1730132488.jpg', '', '', '2024-10-30 17:22:02', '2024-10-27 23:11:22', '2024-10-30 17:22:02'),
+(26, 'Cat sand', '8', 'male', 'Cat', 'asdfghj', NULL, '', '', '2024-10-30 17:21:56', '2024-10-29 14:35:40', '2024-10-30 17:21:56'),
+(27, 'Rasha Yaseen', '2222222', 'female', 'sherazi', 'ooooooooooooooooooooooooooooooo', NULL, NULL, 'Available', '2024-11-03 10:31:01', '2024-11-03 09:53:51', '2024-11-03 10:31:01');
 
 --
 -- Dumping data for table `pet_images`
@@ -634,28 +623,56 @@ INSERT INTO `service_images` (`id`, `image`, `service_id`, `created_at`, `update
 -- Dumping data for table `testimonials`
 --
 
-INSERT INTO `testimonials` (`id`, `message`, `user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 'I had a wonderful experience at PawClinic! The staff was very friendly and attentive to my pet’s needs.', 10, NULL, '2024-09-30 11:50:33', '2024-11-01 20:08:39'),
-(2, 'The veterinarian was knowledgeable and helped me understand my pet’s health better. Highly recommend!', 11, NULL, '2024-10-16 11:50:39', '2024-11-01 20:16:30'),
-(4, 'Great service! My dog loves coming here, and I feel confident in the care provided.', 12, NULL, '2024-10-20 22:16:17', '2024-11-04 05:02:27'),
-(5, 'I was impressed with the cleanliness of the clinic and the professionalism of the staff.', 13, NULL, '2024-10-22 22:17:08', '2024-11-04 05:02:29'),
-(6, 'Affordable prices and excellent care. I couldn’t ask for more!', 14, NULL, '2024-10-31 22:19:39', '2024-11-04 05:02:30'),
-(7, 'The team was caring and took the time to explain everything. I will definitely be returning.', 15, NULL, '2024-10-22 22:20:07', '2024-11-04 05:02:32'),
-(8, 'PawClinic is the best place for my pets. They always receive the best care and attention.', 16, NULL, '2024-09-09 22:21:04', '2024-11-04 05:02:34'),
-(9, 'Had a great experience during my last visit. The reception staff were also very welcoming.', 17, NULL, '2024-11-04 23:04:31', '2024-11-04 05:02:36'),
-(10, 'I’m so grateful for the care my cat received here. The vets really care about their patients.', 18, NULL, '2024-10-30 23:07:58', '2024-11-04 05:02:38'),
-(11, 'The services offered are fantastic, and the staff is always ready to help.', 19, NULL, '2024-09-30 23:12:37', '2024-11-04 05:02:39'),
-(12, 'I appreciate the thorough check-up and the friendly advice on pet care.', 20, NULL, '2024-11-05 23:12:57', '2024-11-04 05:02:40'),
-(13, 'My cat had a surgery here, and the staff took great care of her. Thank you, PawClinic!', 21, NULL, '2024-09-23 23:13:49', '2024-11-04 05:02:42'),
-(14, 'PawClinic has been a lifesaver for my pet! They really know what they are doing.', 22, NULL, '2024-10-07 23:14:37', '2024-11-04 05:02:44'),
-(15, 'The waiting area is clean and comfortable, and the staff is always helpful.', 1, NULL, '2024-11-01 20:07:35', '2024-11-04 05:02:45'),
-(16, 'I love how they provide follow-up calls to check on my pet after a visit.', 2, NULL, '2024-09-17 20:15:53', '2024-11-04 05:02:48'),
-(17, 'They offer a wide range of services, and I feel confident bringing my pets here.', 101, NULL, '2024-11-04 00:47:10', '2024-11-04 05:02:49');
+INSERT INTO `testimonials` (`id`, `message`, `rating`, `user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
+(1, 'I had a wonderful experience at PawClinic! The staff was very friendly and attentive to my pet’s needs.', 4, 10, NULL, '2024-09-30 11:50:33', '2024-11-01 20:08:39'),
+(2, 'The veterinarian was knowledgeable and helped me understand my pet’s health better. Highly recommend!', 5, 11, NULL, '2024-10-16 11:50:39', '2024-11-01 20:16:30'),
+(4, 'Great service! My dog loves coming here, and I feel confident in the care provided.', 5, 12, NULL, '2024-10-20 22:16:17', '2024-11-04 05:02:27'),
+(5, 'I was impressed with the cleanliness of the clinic and the professionalism of the staff.', 4, 13, NULL, '2024-10-22 22:17:08', '2024-11-04 05:02:29'),
+(6, 'Affordable prices and excellent care. I couldn’t ask for more!', 5, 14, NULL, '2024-10-31 22:19:39', '2024-11-04 05:02:30'),
+(7, 'The team was caring and took the time to explain everything. I will definitely be returning.', 4, 15, NULL, '2024-10-22 22:20:07', '2024-11-04 05:02:32'),
+(8, 'PawClinic is the best place for my pets. They always receive the best care and attention.', 4, 16, NULL, '2024-09-09 22:21:04', '2024-11-04 05:02:34'),
+(9, 'Had a great experience during my last visit. The reception staff were also very welcoming.', 5, 17, NULL, '2024-11-01 23:04:31', '2024-11-04 05:02:36'),
+(10, 'I’m so grateful for the care my cat received here. The vets really care about their patients.', 4, 18, NULL, '2024-10-30 23:07:58', '2024-11-04 05:02:38'),
+(11, 'The services offered are fantastic, and the staff is always ready to help.', 5, 19, NULL, '2024-09-30 23:12:37', '2024-11-04 05:02:39'),
+(12, 'I appreciate the thorough check-up and the friendly advice on pet care.', 5, 20, NULL, '2024-10-31 23:12:57', '2024-11-04 05:02:40'),
+(13, 'My cat had a surgery here, and the staff took great care of her. Thank you, PawClinic!', 4, 21, NULL, '2024-09-23 23:13:49', '2024-11-04 05:02:42'),
+(14, 'PawClinic has been a lifesaver for my pet! They really know what they are doing.', 4, 22, NULL, '2024-10-07 23:14:37', '2024-11-04 05:02:44'),
+(15, 'The waiting area is clean and comfortable, and the staff is always helpful.', 5, 1, NULL, '2024-11-01 20:07:35', '2024-11-04 05:02:45'),
+(16, 'I love how they provide follow-up calls to check on my pet after a visit.', 4, 2, NULL, '2024-09-17 20:15:53', '2024-11-04 05:02:48'),
+(17, 'They offer a wide range of services, and I feel confident bringing my pets here.', 5, 101, NULL, '2024-11-04 00:47:10', '2024-11-04 05:02:49'),
+(18, 'love you❤️', 4, 101, NULL, '2024-11-04 15:00:19', '2024-11-04 15:00:19');
 
 --
 -- Dumping data for table `users`
 --
 
+INSERT INTO `users` (`id`, `Fname`, `Lname`, `role`, `email`, `email_verified_at`, `mobile`, `password`, `deleted_at`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Ahmad', 'Khaled', 'manager', 'goyette.ora@example.com', '2024-10-30 16:29:15', '+1-260-426-8249', '$2y$10$4CuXxHC5t/rDw5YXR2uFCOgvB.I/7gnGBZwwEI9QyyrSR5MKR6cCW', NULL, 'LxVS6COn4e', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(2, 'Youssef', 'Aziz', 'store_manager', 'imani20@example.org', '2024-10-30 16:29:15', '+14586626827', '$2y$10$sGx3ZG023eXDGyVKHWZZou0fXinyyTqxOY97LFANg6HIUrjy6YkhK', NULL, 'yAgzSMCYzI', '2024-10-30 16:29:18', '2024-11-02 12:32:21'),
+(3, 'Samir', 'Nasr', 'store_manager', 'jacobson.dale@example.com', '2024-10-30 16:29:15', '(856) 399-4354', '$2y$10$wEbsiQAFNUdRRktT6/zSVOxEwxfK1.PgjffvWNxKpJXfCxynJOohi', NULL, 'OcWzFfaX2M', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(4, 'Layla', 'Hassan', 'veterinarian', 'beatty.elda@example.net', '2024-10-30 16:29:15', '1-971-706-0418', '$2y$10$KNEB1p.oYzLKXcGyHia5yOkaLIQCf816vKejrk9V3NWl5I2aCdjBi', NULL, 'kL6gDXvMr2', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(5, 'Mona', 'Zaki', 'veterinarian', 'sborer@example.net', '2024-10-30 16:29:16', '+19524164990', '$2y$10$TIl.34Y3LkAbg1R1t07FDOX7O90nhxu1ir5xJ97AepUUfh9EG00GO', NULL, 'lSmRv5e2bc', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(6, 'Nour', 'Omar', 'store_manager', 'llesch@example.org', '2024-10-30 16:29:16', '205-604-9478', '$2y$10$nyRsa1vqcrQMaZhp2SQRkud5/tKupXQGQZLD9Syaj0V2V/iueNJSC', NULL, 'axpNZ0AZ4M', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(7, 'Fadi', 'Karam', 'user', 'gulgowski.fausto@example.net', '2024-10-30 16:29:16', '+1-562-818-8465', '$2y$10$seklJMlaDzCRikVY1TY7Y.wKf/GGxb6YXkq0Zk.FXto.Bl18ZS/cG', NULL, 'JFy0ssNdCa', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(8, 'Amina', 'Salem', 'user', 'lafayette.hoeger@example.net', '2024-10-30 16:29:16', '+1 (802) 653-4096', '$2y$10$mD2/Ww.cR.3L2WUPKBQG9uiRDQq7aMeOAVtWVtmiNsvKJPXm..Mcq', NULL, 'ZIWH5MnmM9', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(9, 'Rania', 'Hassan', 'manager', 'bergnaum.darion@example.com', '2024-10-30 16:29:16', '+1-986-629-3121', '$2y$10$f4N6D1fj4SRNx/32PjlhieFWsddP2Lo2cBCnPyDpTK9s1nsSnnj3G', NULL, 'qlcTncDpfv', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(10, 'Sara', 'Nabil', 'receptionist', 'amy46@example.org', '2024-10-30 16:29:16', '1-940-999-6856', '$2y$10$828kx988MSspOeoZzmo7sepPvX.WpvyWV88xRpfXaHNkYE0T3GDyS', NULL, '5KdayMMGd0', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(11, 'Adel', 'Qassem', 'manager', 'chauck@example.org', '2024-10-30 16:29:16', '234-453-4521', '$2y$10$fLoa3dOulx4O9TTwMnsrtujvV2O2k2/CVrtnH.PA3MN9dbnQAPJpa', NULL, 'SsBngDZK7h', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(12, 'Sahar', 'Awad', 'user', 'dayton19@example.net', '2024-10-30 16:29:16', '507.617.2807', '$2y$10$JNeRKE.rm3xm9127Y.u5AedUkvqpzp1KCGu6BxPudlP6x78TkgMKC', NULL, 'bZK2V8GcQf', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(13, 'Tarek', 'Habib', 'receptionist', 'okeefe.alek@example.com', '2024-10-30 16:29:17', '219-247-6871', '$2y$10$4ExSpD1Q1vwMcU4MC.D2MOIH3J6.E9z3shXQ1ku7.0M1QCdH.ntmO', NULL, 'BkZGPW8TRJ', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(14, 'Karim', 'Nader', 'store_manager', 'zakary.flatley@example.org', '2024-10-30 16:29:17', '+1-640-209-1632', '$2y$10$X2fa20d1JbnLN1HjM4YgzeP0m8b9zO.CaWTcG2h/1OIT6hsnqPqDC', NULL, '03YeqH4ItN', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(15, 'Rami', 'Hafez', 'veterinarian', 'jordan06@example.net', '2024-10-30 16:29:17', '630.963.2499', '$2y$10$pkYftsWDYD6aXtG38dMUoeXxC.XNSl2ficFJS73ePnJFnrlBKx4um', NULL, 'P95lr8vYZq', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(16, 'Alya', 'Saleh', 'veterinarian', 'imurphy@example.com', '2024-10-30 16:29:17', '+1-728-280-8153', '$2y$10$TPiPUSgh9zNgj4frzRBkXeXslBGGgn91Nkzjfb5KzPoI5GA5nRnIC', NULL, 'OL9tzQLGva', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(17, 'Fayez', 'Najjar', 'user', 'nmarquardt@example.com', '2024-10-30 16:29:17', '515-891-9574', '$2y$10$TmgxBh2SqqvZgim82A6fKOMzA1Y9PRbwwqDNiO/Ec6cR0zLFW07Ey', NULL, 'yZANSmZNBz', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(18, 'Majed', 'Youssef', 'user', 'joesph30@example.net', '2024-10-30 16:29:17', '+1-207-231-7027', '$2y$10$DXyAGFDnPy/RJt6kEnccxuCewSgnZDD9Wpm0ug0C4zrfZ0ULWZ8ZG', NULL, 'RV5AcUshVK', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(19, 'Dana', 'Azar', 'receptionist', 'becker.quentin@example.org', '2024-10-30 16:29:17', '931-589-3664', '$2y$10$YVRONk2k/dTppO7sDLJS4.jRBbCT4yrpx0J4P8s5HttYeIs5rco8a', NULL, 'DQ2N8LtWCU', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(20, 'Maha', 'Shahin', 'receptionist', 'juna.boyle@example.net', '2024-10-30 16:29:17', '+1-586-987-6259', '$2y$10$buD2VxWwcm7gUg1R1B0EOx6n90vhDgxEia57y97SEaRYfh8EP0IEO', NULL, 'KXmY8PE4xz', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(21, 'Farida', 'Kamel', 'user', 'angel.weber@example.com', '2024-10-30 16:29:17', '1-340-856-1990', '$2y$10$cXkPFRN2WDRypspBGV.kXOJRNGXBz6tLmNw6bRTYeQLLJTDgSvzmC', NULL, 'nRqWN7rMCK', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(22, 'Said', 'Fouad', 'user', 'gsmitham@example.net', '2024-10-30 16:29:17', '256-768-4839', '$2y$10$euosOYVwLU/CdGtnH.s2B.yV6k.XU9VWnnalRnqevw5PNwQuP4HKW', NULL, 'MCTwZckBaP', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(23, 'Ali', 'Hassan', 'manager', 'tristan.reilly@example.org', '2024-10-30 16:29:17', '+1-925-956-4602', '$2y$10$q13YUE/lFGUBQm7JTVgDLeiqQCPy0xObZl.L0rElpMZZ57qFVYZLC', NULL, 'J8HrR9EbNZ', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(24, 'Khaled', 'Osman', 'veterinarian', 'roslyn94@example.com', '2024-10-30 16:29:17', '+1-762-235-2187', '$2y$10$eXcViIqnlshpEjfVpY56buxXW2kz5ZX4XB7Vwbb2eqjE4GhqVv3wA', NULL, 'H8QfTWDIZ5', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(25, 'Nabil', 'Salem', 'user', 'marjorie57@example.net', '2024-10-30 16:29:17', '+1-260-426-8888', '$2y$10$TpVeQNrZ5O1kdEDCkDzYYOH6u89j9wwEdns6KD2TXkO5Daet1BLS2', NULL, '6LKtbvhW13', '2024-10-30 16:29:18', '2024-10-30 16:29:18'),
+(101, 'Rasha', 'yaseen', 'manager', 'yaseenrasha4@gmail.com', NULL, '0796567379', '$2y$10$LDftS9nA4RAd9AFDKYF78.rVraBQOk5WocQUA/LE8s5Q1PwqsZGmW', NULL, NULL, '2024-10-30 17:07:43', '2024-10-30 17:07:43');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
